@@ -107,3 +107,4 @@ names(dataSet)
 #
 
 meanDataSet <- ddply(dataSet,c("activity","subject"),numcolwise(mean))
+write.table(meanDataSet,"result.txt",row.names = FALSE)
