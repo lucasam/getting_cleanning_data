@@ -40,6 +40,7 @@ How to Run
 * download the file run_analysis.R or clone this repo 
 * open a R console and set the working directory as you wish
 * run run_analysis.R script 
+* YOU DO NOT NEED TO DOWNLOAD ANY ADDITIONAL DATA. THE SCRIPT WILL DOWNLOAD IT FOR YOU
 
 What it will produce
 --------------------------------
@@ -47,6 +48,7 @@ What it will produce
 * run_analysis.R will produce 2 data frames
   * dataSet - Data Set containning the tidy data from the "Human Activity Recognition Using Smartphones Data Set "
   * meanDataSet - Data Set containning the means of the tidy data above grouped by subject and activity
+  * write a file called result.txt on your working dir
 
 Other Instructions
 --------------------
