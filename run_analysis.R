@@ -7,6 +7,7 @@
 # Downloading datasets, preparing the enviromment
 #
 library(dplyr)
+library(plyr)
 dataSetUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFileName <- "dataSet.zip"
 #Download the dataset if necessary
@@ -63,7 +64,7 @@ dataSet <- cbind(groupedSubjects,groupedActivities,groupedData)
 #
 #
 
-dataSet<-select(dataSet,matches("mean|std|subject|activities"))
+dataSet<-select(dataSet,matches("mean\\.|std\\.|subject|activities"))
 #
 # 2.2 Cleanning up the mess
 #
@@ -77,7 +78,7 @@ rm("features","groupedSubjects","groupedActivities","groupedData","trainnigData"
 #
 
 # 3.1 Read activity labels from a file
-activitylabels<-read.table(activityLabelsFile,col.names = c("ActivityId", "Activity"))
+activitylabels<-read.table(activityLabelsFile,col.names = c("ActivityId", "activity"))
 # 3.2 Merge the information basead on the "ids"
 dataSet<-merge(dataSet,activitylabels, by.x="activities", by.y="ActivityId")
 # 3.3 remove columns with the same meaning
@@ -105,4 +106,4 @@ names(dataSet)
 #
 #
 
-meanDataSet <- ddply(dataSet,c("Activity","subject"),numcolwise(mean))
+meanDataSet <- ddply(dataSet,c("activity","subject"),numcolwise(mean))
