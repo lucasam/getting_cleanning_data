@@ -64,52 +64,52 @@ the other variables can be interpreted in the same manner are
 - tBodyGyro.std...Y
 - tBodyGyro.std...Z
 - tBodyGyroJerk.mean...X
-tBodyGyroJerk.mean...Y
-tBodyGyroJerk.mean...Z
-tBodyGyroJerk.std...X
-tBodyGyroJerk.std...Y
-tBodyGyroJerk.std...Z
-tBodyAccMag.mean..
-tBodyAccMag.std..
-tGravityAccMag.mean..
-tGravityAccMag.std..
-tBodyAccJerkMag.mean..
-tBodyAccJerkMag.std..
-tBodyGyroMag.mean..
-tBodyGyroMag.std..
-tBodyGyroJerkMag.mean..
-tBodyGyroJerkMag.std..
-fBodyAcc.mean...X
-fBodyAcc.mean...Y
-fBodyAcc.mean...Z
-fBodyAcc.std...X
-fBodyAcc.std...Y
-fBodyAcc.std...Z
-fBodyAccJerk.mean...X
-fBodyAccJerk.mean...Y
-fBodyAccJerk.mean...Z
-fBodyAccJerk.std...X
-fBodyAccJerk.std...Y
-fBodyAccJerk.std...Z
-fBodyGyro.mean...X
-fBodyGyro.mean...Y
-fBodyGyro.mean...Z
-fBodyGyro.std...X
-fBodyGyro.std...Y
-fBodyGyro.std...Z
-fBodyAccMag.mean..
-fBodyAccMag.std..
-fBodyAccMag.meanFreq..
-fBodyBodyAccJerkMag.mean..
-fBodyBodyAccJerkMag.std..
-fBodyBodyGyroMag.mean..
-fBodyBodyGyroMag.std..
-fBodyBodyGyroJerkMag.mean..
-fBodyBodyGyroJerkMag.std..
-angle.tBodyAccMean.gravity.
-angle.tBodyAccJerkMean..gravityMean.
-angle.tBodyGyroMean.gravityMean.    
-angle.tBodyGyroJerkMean.gravityMean.
-angle.X.gravityMean.
-angle.Y.gravityMean.
-angle.Z.gravityMean.              
+- tBodyGyroJerk.mean...Y
+- tBodyGyroJerk.mean...Z
+- tBodyGyroJerk.std...X
+- tBodyGyroJerk.std...Y
+- tBodyGyroJerk.std...Z
+- tBodyAccMag.mean..
+- tBodyAccMag.std..
+- tGravityAccMag.mean..
+- tGravityAccMag.std..
+- tBodyAccJerkMag.mean..
+- tBodyAccJerkMag.std..
+- tBodyGyroMag.mean..
+- tBodyGyroMag.std..
+- tBodyGyroJerkMag.mean..
+- tBodyGyroJerkMag.std..
+- fBodyAcc.mean...X
+- fBodyAcc.mean...Y
+- fBodyAcc.mean...Z
+- vfBodyAcc.std...X
+- fBodyAcc.std...Y
+- fBodyAcc.std...Z
+- fBodyAccJerk.mean...X
+- fBodyAccJerk.mean...Y
+- fBodyAccJerk.mean...Z
+- fBodyAccJerk.std...X
+- fBodyAccJerk.std...Y
+- fBodyAccJerk.std...Z
+- fBodyGyro.mean...X
+- fBodyGyro.mean...Y
+- fBodyGyro.mean...Z
+- fBodyGyro.std...X
+- fBodyGyro.std...Y
+- fBodyGyro.std...Z
+- fBodyAccMag.mean..
+- fBodyAccMag.std..
+- fBodyAccMag.meanFreq..
+- fBodyBodyAccJerkMag.mean..
+- fBodyBodyAccJerkMag.std..
+- fBodyBodyGyroMag.mean..
+- fBodyBodyGyroMag.std..
+- fBodyBodyGyroJerkMag.mean..
+- fBodyBodyGyroJerkMag.std..
+- angle.tBodyAccMean.gravity.
+- angle.tBodyAccJerkMean..gravityMean.
+- angle.tBodyGyroMean.gravityMean.    
+- angle.tBodyGyroJerkMean.gravityMean.
+- angle.X.gravityMean.
+- angle.Y.gravityMean.
+- angle.Z.gravityMean.              
